@@ -8,11 +8,11 @@
 const $ = new Env("互助码");
 const shareCodes = [
   {
-    zd: $.getdata("zd_shareCode1") || "qu73szyyke7tv4sgpjojpyiq6u",
-    nc: $.getdata("nc_shareCode1") || "a1bc1602151a42d68fb8cf0ee93cc43d",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNDAwMDAwMDAyNzkyNjM4Mw==",
+    zd: $.getdata("zd_shareCode1") || "enhkex47u7f32apkdt6or2geta",
+    nc: $.getdata("nc_shareCode1") || "4bc0c4e98d2a4de09588f186b83e05fa",
+    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMzAwMDAwMDAzMjMzNjc1Mw==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5kZ7fCKtjCEX",
-    jxgc: $.getdata("jx_shareCode1") || "k3XRgh9SqTEODDhQVrfL1A==",
+    jxgc: $.getdata("jx_shareCode1") || "WdQbe3aj13F6UzdP8Og9fg==",
   },
   {
     zd: $.getdata("zd_shareCode2") || "",
