@@ -13,6 +13,7 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMzAwMDAwMDAzMjMzNjc1Mw==",
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5mBBSjUvb9A",
     jxgc: $.getdata("jx_shareCode1") || "WdQbe3aj13F6UzdP8Og9fg==",
+    jdzz: $.getdata("zz_shareCode1") || "AXnwUynoiYQ",
   },
   {
     zd: $.getdata("zd_shareCode2") || "",
@@ -58,6 +59,12 @@ $.random = Math.floor(Math.random() * 60);
       (await create(
         `http://api.turinglabs.net/api/v1/jd/jxfactory/create/${jxgc}/`,
         "京喜工厂"
+      ));
+    await $.wait($.random);
+    jdzz &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
+        "京东赚赚"
       ));
   }
   await showMsg();
