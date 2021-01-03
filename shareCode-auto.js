@@ -8,12 +8,12 @@
 const $ = new Env("互助码");
 const shareCodes = [
   {
-    zd: $.getdata("zd_shareCode1") || "enhkex47u7f32apkdt6or2geta",
-    nc: $.getdata("nc_shareCode1") || "4bc0c4e98d2a4de09588f186b83e05fa",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMzAwMDAwMDAzMjMzNjc1Mw==",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5mBBSjUvb9A",
-    jxgc: $.getdata("jx_shareCode1") || "WdQbe3aj13F6UzdP8Og9fg==",
-    zz: $.getdata("zz_shareCode1") || "AXnwUynoiYQ",
+    zd: $.getdata("zd_shareCode1") || "e7lhibzb3zek35ferufzt42iv3mpfm2owqolvwi",
+    nc: $.getdata("nc_shareCode1") || "f18e3ff9ced848f8b663cfe4d51c17ec",
+    mc: $.getdata("mc_shareCode1") || "MTE1NDQ5OTUwMDAwMDAwNDMzOTIxMjU=",
+    ddgc: $.getdata("dd_shareCode1") || "T0225KkcRBhPo1fSI0ilkP8LcwCjVWnYaS5kRrbA",
+    jxgc: $.getdata("jx_shareCode1") || "TsdLqjOdQoM5apoplB9Qyw==",
+    zz: $.getdata("zz_shareCode1") || "",
   },
   {
     zd: $.getdata("zd_shareCode2") || "",
